@@ -3,5 +3,110 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Arial black, sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+a:hover{
+  color: #17EF26F7;
+  transition: .2s;
+}
+.main{
+  min-height: 100vh;
+  width: 100%;
+  background-color: black;
+  background-image: url('march.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 0 8%;
+}
+nav{
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  padding: 20px 0; 
+}
+.logo{
+  width: 150px;
+  height: 45px;
+}
+
+.main ul li{
+  display: inline-block;
+  margin: 10px 30px;
+}
+
+.main h1{
+  font-size: 95px;
+  margin-top: 12%;
+}
+
+.main button{
+  background: #393939;
+  border: 0;
+  outline: none;
+  padding: 15px 30px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 3px;
+  margin-top: 25px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.main button:hover{
+  background: #DE1515F7;
+  transition: .28s;
+}
+
+.dot span{
+  display: inline-block;
+  background: #3a3a3a;
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.dot span:nth-child(2){
+  background-color: #bbb;
+}
+
+.dot{
+  margin-top: 150px;
+}
+
+.text{
+  text-transform: capitalize;
+  width:250px;
+}
+.text p{
+  font-size: 17px;
+  letter-spacing: 1.5px;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+@media screen and (min-width:360px){
   
+   .main h1,
+   button{
+     margin-top: 350px;
+   }
+  
+  .flex .dot{
+    position: absolute;
+    left: 8%;
+    bottom: 7%;
+  }
+  .flex .text {
+    position: absolute;
+    right: 8%;
+    bottom: 7%;
+  }
 }
