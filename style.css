@@ -111,6 +111,16 @@ nav{
     font-weight: 400;
     margin-top: 10px;
   }
+  .dot,.text{
+    position: absolute;
+    bottom: 5%;
+  }
+  .dot{
+    left: 8%;
+  }
+  .text{
+    right: 5%;
+  }
   .dot span{
     width: 7px;
     height: 7px;
@@ -120,7 +130,6 @@ nav{
    letter-spacing: 0;
    word-spacing: 0;
    font-size: 13px;
-  
   }
   .text{
     width: 160px;
